@@ -34,6 +34,27 @@ footer a:hover {
 	font-weight: bold;
 }
 
+/* Nav bar styles */
+
+.navbar {
+    overflow: hidden;
+    background-color: #19265B !important;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+	z-index: 2;
+  }
+
+  .navbar a{
+    color:white !important;
+	z-index: 1;
+  }
+
+  .navbar-nav .dropdown-menu{
+	z-index: 2;
+  }
+
+
 /* Hero Section shadow */
 
 .white-shadow {
@@ -42,3 +63,65 @@ footer a:hover {
 		0 0 .2em white,
 		0 0 .5em white;
 }
+
+/* Styles for the video & text */
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+	z-index: -1;
+  }
+  
+  #overlay {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height:100%;
+	z-index: 1;
+  }
+
+  #inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  h1{
+    color: white;
+  }
+  p{
+    color:blanchedalmond;
+  }
+
+  
+  /* Button Styles */
+.btn-primary{
+	background-color: #F1610D;
+  }
+	#centerButton {
+  margin-top: 20px;
+  
+	}
+  
+/* Footer */
+  
+footer {
+overflow:hidden;
+position:fixed;
+	  bottom: 0;
+	  width: 100%;
+	  background-color: #19265B; 
+	  color: white; 
+	  padding: 20px 0; 
+	  text-align: center;
+	  z-index: 2;
+	}
+	
+	.container {
+	  max-width: 1200px; 
+	  margin: 0 auto; 
+	}
