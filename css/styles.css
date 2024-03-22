@@ -13,6 +13,18 @@ body, html {
 body {
 	font-family: Raleway, sans-serif;
 	background-color: #FFF5ED;
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: auto; 
+  height: 100vh; 
+  margin: 0; 
+  padding: 0;
+}
+
+section {
+  min-height: 225px;
+  margin-bottom:50px;
+  background-color: #19265B;
 }
 
 /* Changing the background colour for the header */
@@ -71,19 +83,27 @@ footer a:hover {
 }
 
 /* Styles for the video & text */
+#video-header {
+  position: relative;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #myVideo {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: static;
+  top: 40%;
+  left: 40%;
+  transform: translate(-30%, -40%);
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
   object-fit:contain;
+  overflow: hidden;
 }
 
 .video-container{
-  position:relative;
+  position:sticky;
   width:100vw;
   height:100vh;
   overflow:hidden;
@@ -91,12 +111,13 @@ footer a:hover {
 
 
 #overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100vh;
+  z-index: 2;
 }
 
   #inner {
@@ -105,6 +126,11 @@ footer a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+  }
+
+  .carousel-container{
+    background-color: #19265B;
+    z-index: 1;
   }
   h1{
     color: white;
