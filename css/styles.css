@@ -4,6 +4,12 @@
 
 /* Changing the main font and background colour */
 
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body {
 	font-family: Raleway, sans-serif;
 	background-color: #FFF5ED;
@@ -66,14 +72,26 @@ footer a:hover {
 
 /* Styles for the video & text */
 #myVideo {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
     min-width: 100%;
     min-height: 100%;
 	z-index: -1;
   }
   
+  .video-container{
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+  }
+
+  .video-container video{
+    width: auto;
+    height:auto;
+  }
+
   #overlay {
     position: absolute;
     bottom: 0;
@@ -111,8 +129,8 @@ footer a:hover {
 /* Footer */
   
 footer {
-overflow:hidden;
-position:fixed;
+overflow: hidden;
+position: fixed;
 	  bottom: 0;
 	  width: 100%;
 	  background-color: #19265B; 
