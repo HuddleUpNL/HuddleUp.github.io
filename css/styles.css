@@ -167,3 +167,47 @@ position: fixed;
 	  max-width: 1200px; 
 	  margin: 0 auto; 
 	}
+
+  #searchgame {
+    z-index: 2;
+    background-color: #19265B;
+    height: 100px;
+    margin-top: 300px;
+  }
+
+  /* Info Section */
+  #infosection {
+    font-family: 'Courier New', Courier, monospace;
+    color: black !important;
+    margin-bottom: 700px;
+  }
+  
+  .custom-border {
+    border-right: 2px solid #ccc; 
+  }
+  
+  .border-between {
+    border-bottom: 2px solid #ccc; /* Adjust border properties as needed */
+    padding-bottom: 20px; /* Add some space between rows */
+    margin-bottom: 20px; /* Add some space between rows */
+  }
+  
+  .align-middle p {
+    display:flex;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  .align-middle h2 {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    color:blanchedalmond;
+  }
+  
+    .info-picture{
+      width:auto;
+      height: 200px;
+      align-items: center;
+    }
