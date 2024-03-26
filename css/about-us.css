@@ -1,0 +1,100 @@
+section {
+    min-height: 300px;
+    margin-bottom: 225px;
+  }
+  
+  h2 {
+    color:#50A5AF;
+  }
+  
+/* About Us 1 */
+#aboutus-1 p {
+  text-align: justify;
+  color:blanchedalmond;
+}
+
+.info-picture{
+width: 80%;
+height: 80%;
+margin-left:0;
+}
+
+#aboutus-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.border-top {
+  border-top: 5px solid #50A5AF; 
+  border-bottom: 5px solid #50A5AF;
+}
+
+
+#aboutus-1 h1 {
+ margin-bottom: 50px;
+ color:blanchedalmond;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+  /* Navbar */
+
+  .navbar {
+    overflow: hidden;
+    background-color: #19265B !important;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+  }
+
+  .navbar a{
+    color:white !important;
+  }
+
+  /* Button Styles */
+.btn-primary{
+  background-color: #F1610D;
+}
+  #centerButton {
+margin-top: 20px;
+
+  }
+
+  .button-width {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    height: 70%;
+  }
+
+  /* Footer */
+
+  footer {
+    overflow:hidden;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #19265B; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center;
+    z-index: -2;
+  }
+  
+  .container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+  }
+
+  #searchgame {
+    z-index: 2;
+    background-color: #19265B;
+    height: 100px;
+    margin-top: -100px;
+  }

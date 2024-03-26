@@ -141,39 +141,45 @@ footer a:hover {
 
   
   /* Button Styles */
-.btn-primary{
-	background-color: #F1610D;
+  .btn-primary{
+    background-color: #F1610D;
   }
-	#centerButton {
+    #centerButton {
   margin-top: 20px;
   
-	}
+    }
+  
+.button-width {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  height: 70%;
+}
   
 /* Footer */
   
 footer {
-overflow: hidden;
-position: fixed;
-	  bottom: 0;
-	  width: 100%;
-	  background-color: #19265B; 
-	  color: white; 
-	  padding: 20px 0; 
-	  text-align: center;
-	  z-index: 2;
-	}
-	
-	.container {
-	  max-width: 1200px; 
-	  margin: 0 auto; 
-	}
+  overflow:hidden;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #19265B; 
+  color: white; 
+  padding: 20px 0; 
+  text-align: center;
+}
 
-  #searchgame {
-    z-index: 2;
-    background-color: #19265B;
-    height: 100px;
-    margin-top: 300px;
-  }
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+#searchgame {
+  z-index: 2;
+  background-color: #19265B;
+  height: 100px;
+  margin-top: 300px;
+}
 
   /* Info Section */
   #infosection {
@@ -183,13 +189,13 @@ position: fixed;
   }
   
   .custom-border {
-    border-right: 2px solid #ccc; 
+    border-right: 2px solid #50A5AF; 
   }
   
   .border-between {
-    border-bottom: 2px solid #ccc; /* Adjust border properties as needed */
-    padding-bottom: 20px; /* Add some space between rows */
-    margin-bottom: 20px; /* Add some space between rows */
+    border-bottom: 2px solid #50A5AF; 
+    padding-bottom: 20px; 
+    margin-bottom: 20px; 
   }
   
   .align-middle p {
@@ -203,7 +209,7 @@ position: fixed;
     align-items: center;
     text-align: center;
     font-weight: bold;
-    color:blanchedalmond;
+    color:#50A5AF;
   }
   
     .info-picture{
